@@ -80,16 +80,24 @@ table{
 	width: 100%;
 }
 
+
 table tbody tr {
 	padding: 1.2rem 0;
 	display: flex;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	justify-content: space-between;
 	align-items: center;
-
+	font-weight: 900;
 	color: var(--offwhite);
 }
 
+
+@media(min-width:800px){
+
+table tbody tr {
+	font-size: 1.2rem;
+}
+}
 table tbody tr td {
 	width: 33.3%;
 }
