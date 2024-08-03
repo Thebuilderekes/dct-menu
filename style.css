@@ -32,6 +32,18 @@ nav {
   text-align: center;
 }
 
+nav a {
+  color: var(--offwhite);
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 32px;
+}
+
+.bg-img {
+  background-image: url("./img/blackpaper.jpg");
+  background-size: cover;
+  background-position: center;
+}
 .menu {
   display: flex;
   flex-direction: column;
@@ -43,6 +55,10 @@ nav {
   height: 300px;
 }
 
+.item {
+    opacity: 0.9;
+}
+
 .item .img-container {
   position: relative;
   width: 100%;
@@ -50,6 +66,7 @@ nav {
   background-size: cover;
   background-position: center;
 }
+
 
 .item .soft {
   background-image: url("./img/soft-drinks.jpg");
