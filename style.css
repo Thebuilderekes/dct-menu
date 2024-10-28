@@ -25,7 +25,7 @@ body {
   flex-direction: column;
   gap: 2rem;
   background: var(--black-bg);
-  font-family: "Arial", sans-serif;
+  font-family: 'Arial', sans-serif;
   text-transform: uppercase;
 }
 nav {
@@ -40,7 +40,7 @@ nav a {
 }
 
 .bg-img {
-  background-image: url("./img/blackpaper.jpg");
+  background-image: url('./img/blackpaper.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -56,7 +56,7 @@ nav a {
 }
 
 .item {
-    opacity: 0.9;
+  opacity: 0.9;
 }
 
 .item .img-container {
@@ -67,18 +67,17 @@ nav a {
   background-position: center;
 }
 
-
 .item .soft {
-  background-image: url("./img/soft-drinks.jpg");
+  background-image: url('./img/soft-drinks.jpg');
 }
 .item .beer {
-  background-image: url("./img/beer.jpg");
+  background-image: url('./img/beer.jpg');
 }
 .item .wine {
-  background-image: url("./img/wine.jpg");
+  background-image: url('./img/wine.jpg');
 }
 .item .whiskey {
-  background-image: url("./img/whiskey.jpg");
+  background-image: url('./img/whiskey.jpg');
 }
 
 .item .img-container .img-overlay {
@@ -126,7 +125,16 @@ nav a {
 table {
   width: 100%;
 }
-
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0); /* Works in modern browsers */
+  border: 0;
+}
 table tbody tr {
   padding: 1.2rem 0;
   display: flex;
@@ -178,6 +186,7 @@ footer .author {
 footer .blend-text,
 footer .blend-text a {
   color: var(--black-bg);
+  visibility: hidden;
 }
 
 footer p a {
