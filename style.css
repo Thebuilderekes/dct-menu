@@ -38,7 +38,10 @@ nav a {
   font-weight: 900;
   font-size: 32px;
 }
-
+h1 {
+  text-align: center;
+  color: var(--offwhite);
+}
 .bg-img {
   background-image: url('./img/blackpaper.jpg');
   background-size: cover;
@@ -87,7 +90,6 @@ nav a {
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  backdrop-filter: hue-rotate(120deg);
 }
 
 @media (min-width: 800px) {
